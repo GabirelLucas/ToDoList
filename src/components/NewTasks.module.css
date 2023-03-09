@@ -1,0 +1,35 @@
+.submit {
+    display: flex;
+    width: 736px;
+    margin-top: -30px;
+}
+
+input {
+    background-color: var(--Gray-500);
+    width: 638px;
+    height: 20px;
+    border: none;
+    border-radius: 8px;
+    color: var(--Gray-300);
+    padding: 16px;
+    font-family: Roboto-mono, sans-serif;
+}
+
+.create {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    align-content: center;
+    width: 90px;
+    height: 52px;
+    background-color: var(--Blue);
+    border-radius: 8px;
+    border: none;
+    gap:8px;
+    
+}
+
+form {
+    display: flex;
+    gap: 8px;
+}
