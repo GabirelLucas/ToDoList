@@ -7,7 +7,7 @@ import { ChangeEvent, FormEvent, useState } from 'react'
 export function Tasks () {
 
     const [NewTextItem, setNewTextItem] = useState('')
-    const [NewItem, setNewItem] = useState([''])
+    const [NewItem, setNewItem] = useState([" "])
     const [countTasks, setCountTasks] = useState(0)
     const [taskDoneCounter, setTaskDoneCounter] = useState(0)
 
