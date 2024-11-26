@@ -1,10 +1,11 @@
-import Style from './Header.module.css'
+import { HeaderContainer } from "./Header.style";
+
 
 export function Header () {
   
     return (
-        <div className={Style.header}>
+        <HeaderContainer>
             <img src="/src/assets/Logo-ToDoList.svg" />
-        </div>
+        </HeaderContainer>
     )
 }
